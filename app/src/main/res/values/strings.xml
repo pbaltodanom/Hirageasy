@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Hirageasy</string>
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_menu" translatable="false">MenuActivity</string>
+    <string name="title_activity_juego" translatable="false">JuegoActivity</string>
+    <string name="title_activity_acerca_de">AcercaDe</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="my_text">
+      <![CDATA[
+        <b>Acerca de Hirageasy</b><br/><br/>
+        <b>Instituto Tecnológico de Costa Rica</b><br/><br/>
+        <b>Escuela de Ingeniería en Computación</b><br/><br/>
+        <b>Desarrollo de Aplicaciones Móviles</b><br/><br/>
+        <b>Autores:</b><br/>
+            Víctor Saborío Hernández<br/>
+            Pablo Baltodano Madrigal<br/>
+            Xavier Vega<br/><br/>
+        <b>Agradecimientos</b><br/>
+            Se extiende un agradecimiento especial a las siguientes personas por su colaboración con la realización de la misma:\n
+            Christopher Zúñiga Torres(Diseñador Gráfico)<br/>
+            Music: Song title - Bensound.com<br/><br/>
+        <b>Profesora</b><br/>
+            Adriana Álvarez Figueroa<br/><br/>
+        <b>Descripción</b><br/>
+            El presente proyecto intenta, por una parte, permitir a los niños  aprender las bases de un segundo idioma, en este caso el idioma japonés. Por otra parte trata de detectar necesidades reales de formación e información a la hora de aprender un nuevo idioma y así diseñar futuras líneas de actuación encaminadas a facilitar este complicado camino en el cual consiste aprender un nuevo idioma en la población infantil. Como impacto indirecto se trata de crear una pequeña base que ayudará al niño, cuando necesite aprenderlo de una manera más formal y fluido. Además, es muy notorio cómo la cultura japonesa tiene una gran influencia en nuestro país, esto nos permitirá agilizar el proceso de aprendizaje; debido a que actualmente el anime es muy reconocido por los niños y jóvenes, esto permitirá sacar provecho para que exista un mayor interés en aprender un nuevo idioma y que se sientan atraídos por el mismo.
+            Al mismo tiempo se trata de crear un entorno agradable para los niños de forma que se familiaricen con el contenido que ofrece la aplicación, esperando que llegue el momento en que el niño le sea fácil aprender nuevas palabras para fortalecer este segundo idioma.<br/><br/>
+        <b>Desarrollo de Aplicaciones Móviles</b><br/><br/>
+        <i>Copyright © 2016 Instituto Tecnológico de Costa Rica </i>
+      ]]>
+    </string>
+</resources>
+

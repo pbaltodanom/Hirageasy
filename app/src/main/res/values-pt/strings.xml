@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hirageasy</string>
+    <string name="hello_world" translatable="false">Olá mundo</string>
+
+    <string name="Instrucciones" translatable="false">Instruções</string>
+    <string name="Ajustes" translatable="false"> Configurações</string>
+    <string name="AcercaDe" translatable="false">Informação</string>
+
+    <string name="EstiloLibre" translatable="false">Estilo Livre</string>
+    <string name="Letras" translatable="false">Letras</string>
+    <string name="Frases" translatable="false">Frases</string>
+    <string name="Adivina" translatable="false">Acho Que Me</string>
+
+    <string name="Play" translatable="false">Reproduzir</string>
+    <string name="BuenosDias" translatable="false">Bom Dia</string>
+    <string name="BuenasTardes" translatable="false">Boa Tarde</string>
+    <string name="BuenasNoches" translatable="false">Boa Noite</string>
+    <string name="Adios" translatable="false">Adeus</string>
+    <string name="ComoEstas" translatable="false">¿Como Vai?</string>
+</resources>

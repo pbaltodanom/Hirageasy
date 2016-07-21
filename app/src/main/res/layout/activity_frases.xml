@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:descendantFocusability="blocksDescendants"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context="com.example.administrador.nuevomenu.Frases"
+    android:background="@drawable/fondo3">
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:scrollbars="none"
+    android:fillViewport="false"
+    android:layout_alignParentLeft="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="0dp" >
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/ohayo_sound"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView"
+            android:background="@drawable/ic_menu_slideshow" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@mipmap/ohayo"
+            android:layout_marginBottom="1dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView2"
+            android:layout_below="@+id/ohayo_sound"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@mipmap/konnichiwa"
+            android:layout_marginBottom="1dp" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/konnichiwa_sound"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_toEndOf="@+id/imageView2"
+            android:background="@drawable/ic_menu_slideshow" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView3"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@mipmap/kn"
+            android:layout_marginBottom="1dp" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/Konbanwa_sound"
+            android:layout_above="@+id/imageView4"
+            android:layout_toRightOf="@+id/imageView3"
+            android:layout_toEndOf="@+id/imageView3"
+            android:background="@drawable/ic_menu_slideshow"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/BuenosDias"
+            android:id="@+id/buenos_dias"
+            android:layout_above="@+id/ohayo_sound"
+            android:textSize="25dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView"
+            android:textAlignment="center"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="-120dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/BuenasTardes"
+            android:id="@+id/buenas_tardes"
+            android:layout_above="@+id/konnichiwa_sound"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="true"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="-122dp"
+            android:autoText="false" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/BuenasNoches"
+            android:id="@+id/buenas_noches"
+            android:layout_above="@+id/Konbanwa_sound"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="true"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="-100dp" />
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView4"
+            android:layout_below="@+id/imageView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@mipmap/sayo"
+            android:layout_marginBottom="1dp" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/sayonara"
+            android:layout_alignBottom="@+id/imageView4"
+            android:layout_alignRight="@+id/genkidesuka"
+            android:layout_alignEnd="@+id/genkidesuka"
+            android:background="@drawable/ic_menu_slideshow" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Adios"
+            android:id="@+id/adios"
+            android:layout_above="@+id/sayonara"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="true"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginRight="-90dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView5"
+            android:layout_below="@+id/imageView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@mipmap/cms"
+            android:layout_marginBottom="1dp" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/genkidesuka"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/imageView5"
+            android:layout_toEndOf="@+id/imageView5"
+            android:background="@drawable/ic_menu_slideshow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/ComoEstas"
+            android:id="@+id/ComoEstas"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_above="@+id/genkidesuka"
+            android:layout_toRightOf="@+id/imageView5"
+            android:layout_toEndOf="@+id/imageView5"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="-90dp"
+            android:layout_marginTop="100dp" />
+
+
+    </RelativeLayout>
+</ScrollView>
+
+
+</RelativeLayout>
+

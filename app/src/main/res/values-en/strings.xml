@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hirageasy</string>
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_menu" translatable="false">MenuActivity</string>
+    <string name="title_activity_juego" translatable="false">GameActivity</string>
+
+    <string name="Instrucciones" translatable="false">Instructions</string>
+    <string name="Ajustes" translatable="false">Settings</string>
+    <string name="AcercaDe" translatable="false">About</string>
+
+    <string name="EstiloLibre" translatable="false">Free Style</string>
+    <string name="Letras" translatable="false">Letters</string>
+    <string name="Frases" translatable="false">Phrases</string>
+    <string name="Adivina" translatable="false">Let Me Guess</string>
+
+    <string name="Play" translatable="false">Play</string>
+    <string name="BuenosDias" translatable="false">Good Morning</string>
+    <string name="BuenasTardes" translatable="false">Good Afternoon</string>
+    <string name="BuenasNoches" translatable="false">Good Night</string>
+    <string name="Adios" translatable="false">Goodbye</string>
+    <string name="ComoEstas" translatable="false">How are you?</string>
+
+
+</resources>

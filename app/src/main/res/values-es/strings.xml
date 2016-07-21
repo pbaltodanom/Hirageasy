@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world" translatable="false">Hola mundo!</string>
+    <string name="action_settings" translatable="false">Ajustes</string>
+    <string name="title_activity_menu" translatable="false">MenuActivity</string>
+    <string name="title_activity_juego" translatable="false">GameActivity</string>
+
+    <string name="Instrucciones" translatable="false">Instruccciones</string>
+    <string name="Ajustes" translatable="false">Ajustes</string>
+    <string name="AcercaDe" translatable="false">Acerca de</string>
+
+
+    <string name="EstiloLibre" translatable="false">Estilo Libre</string>
+    <string name="Letras" translatable="false">Letras</string>
+    <string name="Frases" translatable="false">Frases</string>
+    <string name="Adivina" translatable="false">Adiviname</string>
+
+    <string name="Play" translatable="false">Reproducir</string>
+
+    <string name="BuenosDias" translatable="false">Buenos Días</string>
+    <string name="BuenasTardes" translatable="false">Buenas Tardes</string>
+    <string name="BuenasNoches" translatable="false">Buenas Noches</string>
+    <string name="Adios" translatable="false">Adiós</string>
+    <string name="ComoEstas" translatable="false">¿Cómo estás?</string>
+</resources>
